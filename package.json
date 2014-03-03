@@ -1,0 +1,25 @@
+{
+  "name": "exercise-api",
+  "version": "0.0.1",
+  "description": "A set of end point to demonstrate a couple of use-cases.",
+  "author": "Max Kramnik",
+  "engines": {
+    "node": ">= 0.10.25"
+  },
+  "dependencies": {
+    "express": "^3.4.8",
+    "mongoose": "^3.8.8"
+  },
+  "devDependencies": {
+    "Faker": "^0.7.0",
+    "mocha": "^1.17.1",
+    "should": "^3.1.3",
+    "glob": "^3.2.9",
+    "sinon": "^1.8.2",
+    "istanbul": "^0.2.4"
+  },
+  "scripts": {
+    "start": "node app",
+    "test": "make test"
+  }
+}
