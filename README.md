@@ -69,7 +69,7 @@ Assuming the app is running, the app can be tested by simply copy/pasted the lin
 
   2. This should return status code 403, permission denied:
 
-  [http://localhost:3000v/auth?username=test1&password=test2](http://localhost:3000v/auth?username=test1&password=test2)
+  [http://localhost:3000/v1/auth?username=test1&password=test2](http://localhost:3000/v1/auth?username=test1&password=test2)
 
   3. A list of users:
 
