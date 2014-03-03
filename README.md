@@ -57,19 +57,6 @@ Other packages that are used in the app:
 	$ make server
 	```
 
-## To run tests
-  
-  ```bash
-  $ make test
-  ``` 
-
-## To run test coverage
-  * A couple of methods are skipped for unit test, because they were not used directly by the endpoints, only to populate records
-
-  ```bash
-  $ make test-cov
-  ``` 
-
 
 
 ## Access the endpoints    
@@ -121,4 +108,19 @@ $ curl -i -X GET http://localhost:3000/v1/list?gender=female
 ## Versioning
 
 All endpoints start with /v1, in order to provide a flexible way to change the endpoints without breaking the current application that may still consume the older version. To create a new version of the endpoint, the developer will add /v2 (and so on) for a new version of the code to the endpoint.
+
+
+## To run tests
+  
+  ```bash
+  $ make test
+  ``` 
+
+## To run test coverage
+  * A couple of methods are skipped for unit test, because they were not used directly by the endpoints, only to populate records
+
+  ```bash
+  $ make test-cov
+  ``` 
+
 
